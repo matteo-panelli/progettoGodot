@@ -94,23 +94,21 @@ position = Vector2(463, 913)
 texture = ExtResource("9_qyl64")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
-visible = false
 position = Vector2(463.5, 850)
 shape = SubResource("RectangleShape2D_53m8m")
 
 [node name="Ground1" type="StaticBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="Ground1"]
-position = Vector2(1391, 913)
+position = Vector2(464, 913)
+scale = Vector2(1.00216, 1)
 texture = ExtResource("11_4i2qx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ground1"]
-visible = false
 position = Vector2(1390.5, 850)
 shape = SubResource("RectangleShape2D_7syr8")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Ground1"]
-visible = false
 position = Vector2(1634.5, 595)
 shape = SubResource("RectangleShape2D_ar1vn")
 
